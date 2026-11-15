@@ -1,0 +1,28 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Generated files / downloads
+*.parquet
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+train_dataset.json
+test_dataset.json
+checkpoints/
+runs/
+wandb/
+
+# Large data and private documents
+data/
+TechNova_IT_Handbook.pdf
